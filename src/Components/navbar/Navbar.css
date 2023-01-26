@@ -1,34 +1,27 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
-
-nav > a{
-margin: 0 1rem;
-color:white;
-text-decoration: none;
-line-height: 100%;
+nav > a {
+  display: flex-end;
+  align-items: ;
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  line-height: 100%;
 }
 
-.navbar{
-  display: flex;
-  align-items: center;
-  background-color: darkblue;
+.navbar {
+  /* isplay: flex; d */
+  align-items: flex-end;
+  background-color: #202142;
   padding: 20px;
 }
 
-
-menu a:hover{
+menu a:hover {
   background-color: #4c9e9e;
   border-radius: 5px;
   transition: 0.3s ease;
 }
-
-
-
-
-

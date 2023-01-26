@@ -19,6 +19,7 @@ const Login = () => {
   return (
     <div className="--center-all">
       <h1>Login to continue</h1>
+      <br />
       <form>
         <input
           type="text"
@@ -26,12 +27,16 @@ const Login = () => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
+        <br />
+        <br />
         <input
           type="password"
           placeholder="Enter Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+        <br />
+        <br />
 
         <button onClick={access}>Submit</button>
       </form>

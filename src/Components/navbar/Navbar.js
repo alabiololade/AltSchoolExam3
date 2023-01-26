@@ -9,7 +9,7 @@ const Navbar = ({ data }) => {
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Rentals">OurEvents</Link>
-        <Link to="/error">Error</Link>
+        {/* <Link to="/error">Error</Link> */}
         {data ? <p> Hi, {data.username} </p> : <Link to="/login">Login</Link>}
       </nav>
     </div>

@@ -1,9 +1,44 @@
-.App {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+Body {
+  font-family: "poppins";
   text-align: center;
 }
 
-.--center-all{
+.--center-all {
   text-align: center;
   line-height: normal;
+}
+p {
+  color: gray;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="password"] {
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  /* display: flex; */
+  background-color: black;
+  color: white;
+  /* padding: 3px; */
+  margin: -1px;
 }
